@@ -8,6 +8,7 @@
 
 
 ## NTHU_odom_fusion (publishing orientation from mega board)
-  * "feedback_wheel_angularVel" topic contains angular velocity of two wheels and robot orientation.
+  * Sending angular velocity of two wheel to do sensor fusion in PIC MCU.
+  * Sending fused orientation from PIC MCU to Odroid.
 
 ![](https://github.com/piliwilliam0306/robot_pose_ekf-VS-NTHU_odom_fusion/blob/master/fusion.png)

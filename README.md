@@ -7,8 +7,9 @@
 
 
 
-## NTHU_odom_fusion (publishing orientation from mega board)
-  * Sending angular velocity of two wheel to do sensor fusion in PIC MCU.
+## NTHU_odom_fusion (fusion in PIC MCU)
+  * Sending angular velocity of two wheels to do sensor fusion in PIC MCU.
   * Sending fused orientation from PIC MCU to Odroid.
+  * PIC MCU can send command to Mega board to rotate the robot when the calibration is necessary.
 
 ![](https://github.com/piliwilliam0306/robot_pose_ekf-VS-NTHU_odom_fusion/blob/master/fusion.png)
